@@ -1,6 +1,20 @@
-site_name: Dokumentasi Saya
+site_name: Digital Garden Saya
 theme:
   name: material
+
+# Ekstensi bawaan Python Markdown
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+
+# Mengaktifkan plugin digital garden
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md # File tempat semua tag dikumpulkan
+  - awesome-pages      # Membuat menu navigasi otomatis dari folder
+  - roamlinks          # Mengaktifkan fitur [[Tautan Wiki]]
 
 nav:
   - Home: index.md
