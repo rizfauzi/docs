@@ -1,3 +1,7 @@
 site_name: Dokumentasi Saya
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - About: test.md
