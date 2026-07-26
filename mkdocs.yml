@@ -12,7 +12,7 @@ markdown_extensions:
 plugins:
   - search
   - encryptcontent:
-      global_password: "admin"  
+      global_password: "adminadmin"  
       remember_password: True
   - tags:
       tags_file: tags.md # File tempat semua tag dikumpulkan
