@@ -15,6 +15,9 @@ plugins:
       tags_file: tags.md # File tempat semua tag dikumpulkan
   - awesome-pages      # Membuat menu navigasi otomatis dari folder
   - roamlinks          # Mengaktifkan fitur [[Tautan Wiki]]
+  - encryptcontent:
+      global_password: 'admin'
+  
 
 nav:
   - Home: index.md
