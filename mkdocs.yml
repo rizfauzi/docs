@@ -16,7 +16,7 @@ plugins:
   - awesome-pages      # Membuat menu navigasi otomatis dari folder
   - roamlinks          # Mengaktifkan fitur [[Tautan Wiki]]
   - encryptcontent:
-      global_password: 'admin'
+      global_password: "admin"
   
 
 nav:
