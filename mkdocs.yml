@@ -11,9 +11,9 @@ markdown_extensions:
 # Mengaktifkan plugin digital garden
 plugins:
   - search
-  - encryptcontent:
-      global_password: "adminadmin"  
-      remember_password: True
+  #- encryptcontent:
+  #    global_password: "adminadmin"  
+  #    remember_password: True
   - tags:
       tags_file: tags.md # File tempat semua tag dikumpulkan
   - awesome-pages      # Membuat menu navigasi otomatis dari folder
